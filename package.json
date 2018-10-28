@@ -1,0 +1,33 @@
+{
+  "name": "cross-domain-worker-url",
+  "version": "0.0.1",
+  "description": "convert a cross-domain url to an available url",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && babel src --out-dir dist",
+    "clean": "rimraf dist",
+    "prepublish": "npm run build"
+  },
+  "homepage": "https://github.com/huaxiabuluo/cross-domain-worker-url",
+  "keywords": [
+    "web workers",
+    "cross domain",
+    "transform url"
+  ],
+  "author": {
+    "name": "huaxiabuluo",
+    "email": "huaxiabuluo@hotmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "rimraf": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huaxiabuluo/cross-domain-worker-url.git"
+  }
+}
