@@ -7,7 +7,7 @@ If your current domain is `http://www.a.com/`, but you want to try `const myWork
 ##### We can solve the problem by using `cross-domain-worker-url`
 
 ```js
-const { getLocalWorkerUrl } from 'cross-domain-worker-url';
+import { getLocalWorkerUrl } from 'cross-domain-worker-url';
 
 // If in async function, you can use in this way:
 // const localWorkerUrl = await getLocalWorkerUrl(originWorkerUrl);
