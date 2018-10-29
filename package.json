@@ -1,6 +1,6 @@
 {
   "name": "cross-domain-worker-url",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "convert a cross-domain url to an available url",
   "main": "dist/index.js",
   "scripts": {
